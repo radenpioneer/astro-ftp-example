@@ -1,13 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/mdx': ^0.18.3
-  '@astrojs/rss': ^2.3.2
-  '@astrojs/sitemap': ^1.2.2
-  astro: ^2.2.1
+  '@astrojs/mdx': 0.18.4
+  '@astrojs/rss': 2.3.2
+  '@astrojs/sitemap': 1.2.2
+  astro: 2.2.1
 
 dependencies:
-  '@astrojs/mdx': 0.18.3_astro@2.2.1
+  '@astrojs/mdx': 0.18.4_astro@2.2.1
   '@astrojs/rss': 2.3.2
   '@astrojs/sitemap': 1.2.2
   astro: 2.2.1
@@ -71,8 +71,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/mdx/0.18.3_astro@2.2.1:
-    resolution: {integrity: sha512-fFkzYthnFqxmdp6IesvzU6FDHdAGo9bf4dbMOPCREcBfEhATqSpT9gjK/HdJ5s1MfZI8jjYeSC3yzhmNlq62qA==}
+  /@astrojs/mdx/0.18.4_astro@2.2.1:
+    resolution: {integrity: sha512-yLlHF74oBtCCPnCY4LBios3OrXc97IXIBVOWuyXxmNwAYMA4xIfClN2YP9cFQJITDI/d80qrANzQLQInUNKlHA==}
     engines: {node: '>=16.12.0'}
     dependencies:
       '@astrojs/markdown-remark': 2.1.3_astro@2.2.1
@@ -90,6 +90,7 @@ packages:
       remark-gfm: 3.0.1
       remark-smartypants: 2.0.0
       shiki: 0.11.1
+      source-map: 0.7.4
       unist-util-visit: 4.1.2
       vfile: 5.3.7
     transitivePeerDependencies:
