@@ -7,7 +7,8 @@
     "start": "pnpm dlx npm-run-all -s build preview",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "check": "astro check"
   },
   "dependencies": {
     "astro": "2.5.5",
